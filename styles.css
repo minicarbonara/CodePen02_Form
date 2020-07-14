@@ -1,0 +1,29 @@
+body{
+    background-color: Burlywood;
+    color: SaddleBrown;
+  }
+  h1{
+    margin: auto;
+    align: center;
+  }
+  #header{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    line-height: 0.6;
+    text-shadow: 0px -2px black;
+    background-color: DarkRed;
+    padding: 1.5rem 1.5rem 0.2rem 1.5rem;
+    border-radius: 0.25rem;
+    color: Salmon;
+    box-shadow: 0px 2px 10px Black;
+  }
+  #content{
+    background-color: FloralWhite;
+    padding: 0.5rem 2.625rem 1.5rem 2.625rem;
+    border-radius: 0.75rem;
+    width: 640px;
+    margin: 30px auto 20px auto;
+    box-shadow: 0px 5px 10px SaddleBrown;
+    color: SaddleBrown;
+  }
