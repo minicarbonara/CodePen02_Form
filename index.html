@@ -1,58 +1,55 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <html>
-<!-- 
-
-Hello Camper!
-
-For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
-
-- The freeCodeCamp Team 
-
--->
-<head>
+  <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-<body>
-<div id="header">
-  <h1 id="title">Ejército de Cazadores de Brujas</h1>
-  <h3>Formulario de reclutamiento</h3>
-</div>
-<div id="content">
-  <p id="description">Por favor, rellena el formulario para presentarte voluntario al <strong>Ejército de cazadores de Brujas</strong>. No se permiten mujeres. No se permiten brujas. No se permiten hechiceros, nigromantes o profesionales del sector seguros. Se comprobarán las credenciales antes de permitir la inscripcion al ECB <em>(Tasa de inscripción 5 libras. Tasa de comprobación 35 libras.)</em>.</p><hr></br>
-<form id="survey-form"; action="#">
-  <fieldset>
-    <legend>Introduce tus datos</legend>
-  <label for"name" id="name-label">Nombre: </label><input type="text" id="name" name="name" placeholder="Nombre" required><br>
- <label for"email" id="email-label">Correo electrónico: </label> <input type="email" id="email" name="email" placeholder="Correo electrónico" required><br>
-  <label for"number" id="number-label">Número de pezones (se comprobará): </label><input type="number" id="number" name="N_pezones" placeholder="Número de pezones" min="0" max="2"><br>
-  <label for"dropdown">¿Por qué quieres unirte al ECB? </label>
-  <select id="dropdown" name="metas">
-    <option value="verso1">Para proteger al mundo de la devastación.</option>
-    <option value="verso2">Para unir a todos los pueblos en una sola nación.</option>
-    <option value="verso3">Para denunciar a los enemigos de la verdad y el amor.</option>
-    <option value="verso4">Para extender nuestro poder mas allá del espacio exterior. </option>
-  </select>
-    </fieldset><br>
-  <fieldset>
-    <legend>¿Has tenido algún contacto sobrenatural?</legend>
-    <input id="si-mal" type="radio" name="items" value="si-mal">
-    <label for="si-mal">Sí, y fue horrible.</label><br>
-    <input id="si-bien" type="radio" name="items" value="si-bien">
-    <label for="si-bien">Sí, y fue fantástico.</label><br>
-    <input id="nop" type="radio" name="items" value="nop">
-    <label for="nop">No, pero me gustaría.</label>
-  </fieldset> <br>
-  <fieldset>
-    <legend>Selecciona los materiales que puedes aportar.</legend>
-  <label for="estacas"><input id="estacas" type="checkbox" name="equipo" value="estacas"> Estacas de madera.</label><br>
-    <label for="cerillas"><input id="cerillas" type="checkbox" name="equipo" value="cerillas"> Cerillas a prueba de lluvia.</label><br>
-    <label for="alfiler"><input id="alfiler" type="checkbox" name="equipo" value="alfiler"> Un alfiler.</label><br>
-    <label for="combustible"><input id="combustible" type="checkbox" name="equipo" value="combustible"> Líquido de encendedor o combustible.</label><br>
-    <label for="contactos"><input id="contactos" type="checkbox" name="equipo" value="contactos"> Contactos con la autoridad local.</label>
-    </fieldset> <br>
-  <textarea id="comentarios" placeholder="¿Alguna pregunta o comentario que añadir?" rows="3" style="width:100%"></textarea><br><br>
- <button type="submit" id="submit">Enviar solicitud</button>
-</form>
-</div>
-</body>
+  </head>
+
+  <body>
+    <div id="header">
+      <h1 id="title">Ejército de Cazadores de Brujas</h1>
+      <h3>Formulario de reclutamiento</h3>
+    </div>
+    <div id="content">
+      <p id="description">Por favor, rellena el formulario para presentarte voluntario al <strong>Ejército de cazadores de Brujas</strong>. No se permiten mujeres. No se permiten brujas. No se permiten hechiceros, nigromantes o profesionales del sector seguros. Se comprobarán las credenciales antes de permitir la inscripcion al ECB <em>(Tasa de inscripción 5 libras. Tasa de comprobación 35 libras.)</em>.</p>
+      <hr>
+      </br>
+      <form id="survey-form"; action="#">
+        <fieldset>
+          <legend>Introduce tus datos</legend>
+          <label for"name" id="name-label">Nombre: </label><input type="text" id="name" name="name" placeholder="Nombre" required><br>
+          <label for"email" id="email-label">Correo electrónico: </label> <input type="email" id="email" name="email" placeholder="Correo electrónico" required><br>
+          <label for"number" id="number-label">Número de pezones (se comprobará): </label><input type="number" id="number" name="N_pezones" placeholder="Número de pezones" min="0" max="2"><br>
+          <label for"dropdown">¿Por qué quieres unirte al ECB? </label>
+          <select id="dropdown" name="metas">
+            <option value="verso1">Para proteger al mundo de la devastación.</option>
+            <option value="verso2">Para unir a todos los pueblos en una sola nación.</option>
+            <option value="verso3">Para denunciar a los enemigos de la verdad y el amor.</option>
+            <option value="verso4">Para extender nuestro poder mas allá del espacio exterior. </option>
+          </select>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>¿Has tenido algún contacto sobrenatural?</legend>
+          <input id="si-mal" type="radio" name="items" value="si-mal">
+          <label for="si-mal">Sí, y fue horrible.</label><br>
+          <input id="si-bien" type="radio" name="items" value="si-bien">
+          <label for="si-bien">Sí, y fue fantástico.</label><br>
+          <input id="nop" type="radio" name="items" value="nop">
+          <label for="nop">No, pero me gustaría.</label>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Selecciona los materiales que puedes aportar.</legend>
+          <label for="estacas"><input id="estacas" type="checkbox" name="equipo" value="estacas"> Estacas de madera.</label><br>
+          <label for="cerillas"><input id="cerillas" type="checkbox" name="equipo" value="cerillas"> Cerillas a prueba de lluvia.</label><br>
+          <label for="alfiler"><input id="alfiler" type="checkbox" name="equipo" value="alfiler"> Un alfiler.</label><br>
+          <label for="combustible"><input id="combustible" type="checkbox" name="equipo" value="combustible"> Líquido de encendedor o combustible.</label><br>
+          <label for="contactos"><input id="contactos" type="checkbox" name="equipo" value="contactos"> Contactos con la autoridad local.</label>
+        </fieldset>
+        <br>
+        <textarea id="comentarios" placeholder="¿Alguna pregunta o comentario que añadir?" rows="3"></textarea>
+        <button type="submit" id="submit" name="enviar">Enviar solicitud</button>
+      </form>
+    </div>
+  </body>
 </html>
